@@ -17,7 +17,7 @@ This produces:
 - `*_fullpolicy_metadata.json` — model/feature/scoring metadata
 
 
-Point `DATA_JSON_PATH` and `META_JSON_PATH` in `train_and_quantize.py` to the outputs from Step 1:
+Point `DATA_JSON_PATH` and `META_JSON_PATH` in `train.py` to the outputs from Step 1:
 
 ```bash
 python train.py
